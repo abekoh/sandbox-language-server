@@ -1,0 +1,29 @@
+{
+  "name": "sandbox-language-server",
+  "version": "1.0.0",
+  "description": "sandbox of language server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abekoh/sandbox-language-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abekoh/sandbox-language-server/issues"
+  },
+  "homepage": "https://github.com/abekoh/sandbox-language-server#readme",
+  "dependencies": {
+    "vscode-languageserver": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "typescript": "^3.1.3"
+  },
+  "scripts": {
+      "compile": "tsc"
+  }
+}
